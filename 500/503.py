@@ -1,4 +1,5 @@
-#503
+# 503
+
 def compute(a, b):
     return sum(range(a, b + 1))
 

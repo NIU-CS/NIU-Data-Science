@@ -1,4 +1,5 @@
-#505
+# 505
+
 def compute(a, x, y):
   for _ in range(y):
     print((a + ' ') * x)
