@@ -1,4 +1,5 @@
-#510
+# 510
+
 def compute(num):
     fibonacci_sequence = [0, 1]
 

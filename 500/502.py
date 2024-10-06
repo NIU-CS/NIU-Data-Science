@@ -1,4 +1,5 @@
-#502
+# 502
+
 def compute(x, y):
     return x * y
 

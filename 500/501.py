@@ -1,4 +1,5 @@
-#501
+# 501
+
 def compute():
     department = input("Department: ")
     student_id = input("Student ID: ")

@@ -1,4 +1,5 @@
-#506
+# 506
+
 import math
 
 def compute(a, b, c):

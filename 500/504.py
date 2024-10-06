@@ -1,4 +1,5 @@
-#504
+# 504
+
 def compute(a, b):
     return a ** b
 

@@ -1,4 +1,5 @@
-#508
+# 508
+
 def compute(x, y):
     while y != 0:
         x, y = y, x % y

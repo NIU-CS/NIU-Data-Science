@@ -1,4 +1,5 @@
-#507
+# 507
+
 def compute(x):
     if x < 2:
         return False
