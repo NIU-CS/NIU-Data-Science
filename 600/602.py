@@ -1,3 +1,5 @@
+# 602
+
 L=[]
 for i in range(5):
   x = input()
