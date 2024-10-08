@@ -1,16 +1,18 @@
 # 405
 
+
 def get_gpa(score):
     if score >= 90:
-        return 'A'
+        return "A"
     elif score >= 80:
-        return 'B'
+        return "B"
     elif score >= 70:
-        return 'C'
+        return "C"
     elif score >= 60:
-        return 'D'
+        return "D"
     else:
-        return 'E'
+        return "E"
+
 
 while True:
     score = int(input())

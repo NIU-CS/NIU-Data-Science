@@ -1,7 +1,9 @@
 # 502
 
+
 def compute(x, y):
     return x * y
+
 
 x = int(input("The first integer: "))
 y = int(input("The second integer: "))

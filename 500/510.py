@@ -1,5 +1,6 @@
 # 510
 
+
 def compute(num):
     fibonacci_sequence = [0, 1]
 
@@ -8,6 +9,7 @@ def compute(num):
         fibonacci_sequence.append(next_value)
 
     return fibonacci_sequence
+
 
 num = int(input("Input a positive integer num (num >= 2): "))
 

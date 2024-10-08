@@ -1,5 +1,6 @@
 # 210
 
+
 def triangle_judgment(a, b, c):
     # 檢查是否可以構成三角形
     if a + b > c and a + c > b and b + c > a:
@@ -7,6 +8,7 @@ def triangle_judgment(a, b, c):
         return perimeter
     else:
         return "Invalid"
+
 
 # 輸入三個邊長
 a = float(input("請輸入第一個邊長: "))

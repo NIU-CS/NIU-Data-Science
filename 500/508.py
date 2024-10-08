@@ -1,9 +1,11 @@
 # 508
 
+
 def compute(x, y):
     while y != 0:
         x, y = y, x % y
     return x
+
 
 x = int(input("Input the first positive integer: "))
 y = int(input("Input the second positive interger: "))

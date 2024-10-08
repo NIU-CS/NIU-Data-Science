@@ -1,6 +1,6 @@
 # 402
 
-min_value = float('inf')
+min_value = float("inf")
 while True:
     num = int(input())
     if num == 9999:

@@ -1,10 +1,12 @@
 # 301
 
+
 def sum_of_integers(a, b):
     total = 0
     for i in range(a, b + 1):
         total += i
     return total
+
 
 # 輸入兩個整數 a 和 b
 a = int(input("請輸入第一個整數 a: "))

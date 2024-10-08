@@ -1,9 +1,11 @@
 # 509
 
+
 def compute(x, y):
     while y != 0:
         x, y = y, x % y
     return x
+
 
 x = int(input("Input the first numerator: "))
 y = int(input("Input the first denominator: "))

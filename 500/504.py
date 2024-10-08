@@ -1,7 +1,9 @@
 # 504
 
+
 def compute(a, b):
-    return a ** b
+    return a**b
+
 
 a = int(input("Input the first integer (a): "))
 b = int(input("Input the second interger (b): "))

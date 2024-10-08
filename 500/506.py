@@ -2,6 +2,7 @@
 
 import math
 
+
 def compute(a, b, c):
     D = b**2 - 4 * a * c
 
@@ -14,6 +15,7 @@ def compute(a, b, c):
         return [root]
     else:
         return None
+
 
 a = int(input("Input the coefficient a: "))
 b = int(input("Input the coefficient b: "))

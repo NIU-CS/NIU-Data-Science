@@ -1,21 +1,23 @@
 # 204
 
+
 # 定義一個函式來進行運算
 def calculate(a, b, operator):
-    if operator == '+':
+    if operator == "+":
         return a + b
-    elif operator == '-':
+    elif operator == "-":
         return a - b
-    elif operator == '*':
+    elif operator == "*":
         return a * b
-    elif operator == '/':
+    elif operator == "/":
         return a / b
-    elif operator == '//':
+    elif operator == "//":
         return a // b
-    elif operator == '%':
+    elif operator == "%":
         return a % b
     else:
         return "不支援的運算符號"
+
 
 # 讓使用者輸入兩個整數和運算符號
 a = int(input("請輸入第一個整數："))

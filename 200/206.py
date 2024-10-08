@@ -1,12 +1,13 @@
 def grade_classification(score):
     if 80 <= score <= 100:
-        return 'A'
+        return "A"
     elif 70 <= score <= 79:
-        return 'B'
+        return "B"
     elif 60 <= score <= 69:
-        return 'C'
+        return "C"
     else:
-        return 'F'
+        return "F"
+
 
 # 輸入分數
 score = int(input("請輸入分數: "))

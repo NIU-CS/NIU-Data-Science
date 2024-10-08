@@ -1,5 +1,6 @@
 # 107
 
+
 def calculate_values(numbers):
     total = sum(numbers)  # 計算總和
     average = total / len(numbers)  # 計算平均值
@@ -9,6 +10,7 @@ def calculate_values(numbers):
     # 輸出總和和平均值，保留小數點後一位
     print(f"Sum = {total:.1f}")
     print(f"Average = {average:.1f}")
+
 
 # 輸入五個數字
 numbers = []

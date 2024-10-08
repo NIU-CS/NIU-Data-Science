@@ -1,5 +1,6 @@
 # 105
 
+
 def calculate_rectangle(width, height):
     perimeter = 2 * (width + height)  # 計算周長
     area = width * height  # 計算面積
@@ -9,6 +10,7 @@ def calculate_rectangle(width, height):
     print(f"Width = {width:.2f}")
     print(f"Perimeter = {perimeter:.2f}")
     print(f"Area = {area:.2f}")
+
 
 # 輸入矩形的寬和高
 height = float(input("Enter height: "))

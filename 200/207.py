@@ -1,5 +1,6 @@
 # 207
 
+
 def calculate_discount(price):
     if price >= 38000:
         discount = 0.7
@@ -14,6 +15,7 @@ def calculate_discount(price):
 
     final_price = price * discount
     return final_price
+
 
 # 輸入購物金額
 price = float(input("請輸入購物金額: "))

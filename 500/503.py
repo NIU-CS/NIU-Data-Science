@@ -1,7 +1,9 @@
 # 503
 
+
 def compute(a, b):
     return sum(range(a, b + 1))
+
 
 a = int(input("Input the first integer (a): "))
 b = int(input("Input the second interger (b): "))
