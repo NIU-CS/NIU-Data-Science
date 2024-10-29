@@ -1,15 +1,6 @@
 # 602
 
-L = []
-for i in range(5):
-    x = input()
-    if x == "A":
-        x = 1
-    if x == "J":
-        x = 11
-    if x == "Q":
-        x = 12
-    if x == "K":
-        x = 613
-    L.append(int(x))
-print(sum(L))
+cards = [input() for _ in range(5)]
+values = {'J': 11, 'Q': 12, 'K': 13, 'A': 1}
+total = sum(values[card] if card in values else int(card) for card in cards)
+print(total)
