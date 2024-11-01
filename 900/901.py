@@ -1,4 +1,4 @@
-#901
+# 901
 
 def main():
     with open("write.txt", "w", encoding="utf-8") as file:

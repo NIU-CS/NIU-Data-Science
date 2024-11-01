@@ -1,4 +1,4 @@
-#902
+# 902
 
 def main():
     total = 0
@@ -6,7 +6,7 @@ def main():
         content = file.read()
         numbers = map(int, content.split())
         total = sum(numbers)
-    
+
     print(f"{total}")
 
 if __name__ == "__main__":

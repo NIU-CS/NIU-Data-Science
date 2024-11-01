@@ -1,4 +1,4 @@
-#903
+# 903
 
 def main():
     with open("data.txt", "a", encoding="utf-8") as file:

@@ -1,4 +1,4 @@
-#810
+# 810
 
 def main():
     k = int(input())
