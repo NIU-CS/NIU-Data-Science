@@ -1,1 +1,7 @@
-# 題目與答案不符 跳過
+# 806
+
+sentence = input()
+character = input()
+
+count = sentence.count(character)
+print(f"{character} occurs {count} time(s)")
