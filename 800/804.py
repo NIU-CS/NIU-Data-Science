@@ -1,5 +1,6 @@
 # 804
 
+
 def main():
     user_input = input()
 
@@ -8,6 +9,7 @@ def main():
 
     print(f"{upper_case}")
     print(f"{title_case}")
+
 
 if __name__ == "__main__":
     main()

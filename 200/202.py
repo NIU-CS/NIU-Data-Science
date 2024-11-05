@@ -12,8 +12,6 @@ def check_multiple(x):
         print(f"{x} is not a multiple of 3 or 5.")
 
 
-# 輸入一個整數
-x = int(input("Enter a number: "))
+x = int(input())
 
-# 呼叫倍數判斷函式
 check_multiple(x)

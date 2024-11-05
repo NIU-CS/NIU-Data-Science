@@ -1,5 +1,6 @@
 # 805
 
+
 def main():
     user_input = input()
 
@@ -14,6 +15,7 @@ def main():
     print(left_aligned)
     print(center_aligned)
     print(right_aligned)
+
 
 if __name__ == "__main__":
     main()
