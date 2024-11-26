@@ -1,5 +1,6 @@
 # 802
 
+
 def main():
     user_input = input()
     total_sum = 0
@@ -10,6 +11,7 @@ def main():
         print(f"ASCII code for '{char}' is: {ascii_value}")
 
     print(f"{total_sum}")
+
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,6 @@
 # 810
 
+
 def main():
     k = int(input())
 
@@ -9,6 +10,7 @@ def main():
         min_value = min(numbers)
         difference = max_value - min_value
         print(f"{difference:.2f}")
+
 
 if __name__ == "__main__":
     main()

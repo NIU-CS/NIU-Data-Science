@@ -11,7 +11,11 @@ def compute(num):
     return fibonacci_sequence
 
 
-num = int(input("Input a positive integer num (num >= 2): "))
+def print_result(fibonacci_sequence):
+    for value in fibonacci_sequence:
+        print(f"{value}", end=" ")
 
-result = compute(num)
-print(f"The front {num} number of fibonacci_sequence is: {result}")
+
+num = int(input())
+
+print_result(compute(num))

@@ -1,5 +1,6 @@
 # 807
 
+
 def main():
     user_input = input()
     numbers = list(map(int, user_input.split()))
@@ -13,6 +14,7 @@ def main():
 
     print(f"{total}")
     print(f"{average:.1f}")
+
 
 if __name__ == "__main__":
     main()
